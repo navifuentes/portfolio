@@ -3,7 +3,7 @@ import IconPill from "../IconPill";
 import GithubIcon from "../icons/Github";
 import InstagramIcon from "../icons/Instagram";
 import LinkedInIcon from "../icons/LinkedIn";
-import WhatsAppIcon from "../icons/WhatsApp";
+import MailIcon from "../icons/Mail";
 
 const Footer = () => {
   return (
@@ -19,8 +19,8 @@ const Footer = () => {
         <IconPill uri={"https://www.linkedin.com/in/navi-fuentes/"}>
           <LinkedInIcon />
         </IconPill>
-        <IconPill>
-          <WhatsAppIcon />
+        <IconPill uri={"mailto:iv.ifa94@gmail.com"}>
+          <MailIcon />
         </IconPill>
       </div>
     </div>

@@ -27,12 +27,6 @@ const Navbar = () => {
       >
         Studies
       </a>
-      <a
-        className="hover:bg-sky-300 rounded-xl px-1 mx-4   target:bg-black active:ring active:ring-sky-200"
-        href="#Contact"
-      >
-        Contact
-      </a>
     </div>
   );
 };

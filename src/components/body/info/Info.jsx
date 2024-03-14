@@ -12,7 +12,9 @@ const Info = () => {
     <section id="Info" className="flex flex-row my-44">
       <div className="mx-4 mb-4">
         <div className="flex flex-col items-center m-4">
-          <Badge>Open to work</Badge>
+          <Badge uri="https://www.linkedin.com/in/navi-fuentes/">
+            Open to work
+          </Badge>
           <div className="text-4xl my-2">
             Hey!, I'm <span className="text-snow/50">Ivan Fuentes</span>
           </div>

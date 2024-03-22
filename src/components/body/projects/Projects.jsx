@@ -6,7 +6,7 @@ import img2 from "../../../assets/project2.png";
 const Projects = () => {
   return (
     <section id="Projects">
-      <h2 className="text-center text-6xl">Projects</h2>
+      <h2 className="text-center sm:text-6xl text-xl">Projects</h2>
       <div className="my-8 flex sm:flex-row flex-col  gap-x-8 gap-y-4">
         <ProjectCard
           uri={"https://lovecraftapirest.fly.dev/"}

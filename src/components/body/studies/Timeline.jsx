@@ -39,18 +39,18 @@ const Timeline = () => {
       </span>
       <div className="animate-ping absolute bg-cyan rounded-full h-6 w-6"></div>
       <div className="absolute bg-cyan rounded-full h-6 w-6"></div>
-      <p className="border-l-4 pb-4 ml-2.5 pl-20 text-3xl">Coderhouse</p>
+      <p className="border-l-4 pb-4 ml-2.5 pl-20 sm:text-3xl text-xs">Coderhouse</p>
       <ul className="border-l-4 ml-2.5 border-stone-300 ">
         {coderHouseStudies.map((s) => (
           <StudiesPill key={s.key} uri={s.uri} tag={s.tag} />
         ))}
       </ul>
-      <span className="py-4  border-l-4 ml-2.5 pl-16 text-xs tracking-widest">
+      <span className="py-4 border-l-4 ml-2.5 pl-16 text-xs tracking-widest">
         2024
       </span>
       <div className="animate-ping absolute bg-cyan rounded-full h-6 w-6"></div>
       <div className="absolute bg-cyan rounded-full h-6 w-6"></div>
-      <p className="border-l-4 pb-4 ml-2.5 pl-20 text-3xl">FullStacOpen</p>
+      <p className="border-l-4 pb-4 ml-2.5 pl-20 sm:text-3xl text-xs">FullStacOpen</p>
       <ul className="border-l-4 ml-2.5 border-stone-300">
         {fullstackOpenStudies.map((s) => (
           <StudiesPill key={s.key} uri={s.uri} tag={s.tag} />

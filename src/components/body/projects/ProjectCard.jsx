@@ -9,7 +9,7 @@ const ProjectCard = ({ children: text, uri, img, title }) => {
           <img src={img} alt="" />
         </a>
       </div>
-      <p>{text}</p>
+      <p className="p-4">{text}</p>
     </div>
   );
 };

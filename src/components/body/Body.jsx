@@ -6,7 +6,7 @@ import Studies from "./studies/Studies";
 
 const Body = () => {
   return (
-    <div className="text-snow flex flex-col items-center px-20 font-orbitron">
+    <div className="text-snow flex flex-col justify-center sm:items-center px-20 font-orbitron  min-w-full">
       <Info />
       <hr className="my-16 mx-auto w-1/2" />
       <Projects />

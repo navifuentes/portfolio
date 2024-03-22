@@ -7,20 +7,22 @@ const Projects = () => {
   return (
     <section id="Projects">
       <h2 className="text-center text-6xl">Projects</h2>
-      <div className="my-8 flex gap-x-8 gap-y-4">
+      <div className="my-8 flex sm:flex-row flex-col  gap-x-8 gap-y-4">
         <ProjectCard
           uri={"https://lovecraftapirest.fly.dev/"}
           img={img1}
           title={"Lovecraftian Api"}
         >
-          A Lovecraftian universe beasts API with description, images, author and more.
+          A Lovecraftian universe beasts API with description, images, author
+          and more.
         </ProjectCard>
         <ProjectCard
           uri={"https://lovecraftbestiary.fly.dev/"}
           img={img2}
           title={"Lovecraftian Bestiary"}
         >
-          A website made to display the beasts images from the the Lovecraftian API and miscellaneous.
+          A website made to display the beasts images from the the Lovecraftian
+          API and miscellaneous.
         </ProjectCard>
       </div>
     </section>

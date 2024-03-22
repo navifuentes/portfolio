@@ -6,10 +6,11 @@ import IconPill from "../../IconPill";
 import LinkedInIcon from "../../icons/LinkedIn";
 import GitHubIcon from "../../icons/Github";
 import MailIcon from "../../icons/Mail";
+import profilePic from "../../../assets/minProf.png";
 
 const Info = () => {
   return (
-    <section id="Info" className="flex flex-row my-44">
+    <section id="Info" className="flex sm:flex-row sm:my-44 flex-col-reverse">
       <div className="mx-4 mb-4">
         <div className="flex flex-col items-center m-4">
           <Badge uri="https://www.linkedin.com/in/navi-fuentes/">
@@ -64,8 +65,12 @@ const Info = () => {
         </nav>
       </div>
 
-      <div className="mx-4 my-14">
-        <img src="https://placehold.co/1000" alt="" />
+      <div className="mx-4 my-14 flex justify-center">
+        <img
+          className="rounded-full size-[10em] sm:w-[30em]"
+          src={profilePic}
+          alt=""
+        />
       </div>
     </section>
   );

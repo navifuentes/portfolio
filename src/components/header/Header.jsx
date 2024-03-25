@@ -3,7 +3,7 @@ import Navbar from "./navbar/Navbar";
 
 const Header = () => {
   return (
-    <div className="py-1 z-10 sticky top-0 text-center font-orbitron text-blue">
+    <div className="py-1 z-10 sticky top-0 text-center font-orbitron text-blue backdrop-blur-sm border-b border-slate-900/10">
       <Navbar />
       <div className="sm:hidden">
         <div>logo</div>

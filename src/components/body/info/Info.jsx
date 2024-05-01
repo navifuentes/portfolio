@@ -10,7 +10,7 @@ import profilePic from "../../../assets/minProf.png";
 
 const Info = () => {
   return (
-    <section id="Info" className="flex sm:flex-row sm:my-20 flex-col-reverse">
+    <section id="Info" className="flex sm:flex-row sm:my-20 flex-col-reverse items-center">
       <div className="mx-4 mb-4">
         <div className="flex flex-col items-center m-4">
           <Badge uri="https://www.linkedin.com/in/navi-fuentes/">
@@ -42,7 +42,7 @@ const Info = () => {
           </div>
           <hr className="sm:bg-black bg-black w-1/2" />
         </div>
-        <div className="p-4 sm:w-[70vw]">
+        <div className="p-4 sm:w-[60vw]">
           <p className="pb-4 sm:text-xl text-xs">
             Welcome to my portfolio! 😊 I'm a Full Stack Web Developer who's
             passionate about learning and overcoming challenges. Whether it's
@@ -76,7 +76,7 @@ const Info = () => {
 
       <div className="mx-4 my-14 flex justify-center">
         <img
-          className="rounded-full size-[10em] sm:w-[30em]"
+          className="rounded-full max-h-52"
           src={profilePic}
           alt=""
         />
